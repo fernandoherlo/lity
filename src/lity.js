@@ -315,8 +315,8 @@
             //update prev next
             // prevSlide = (el.context.parentElement.previousElementSibling != null)?el.context.parentElement.previousElementSibling.firstElementChild:false;
             // nextSlide = (el.context.parentElement.nextElementSibling != null)?el.context.parentElement.nextElementSibling.firstElementChild:false;
-            prevSlide = (el.parent().next())?el.parent().next().find('a'):false;
-            nextSlide = (el.parent().prev())?el.parent().prev().find('a'):false;
+            nextSlide = (el.parent().next())?el.parent().next().find('a'):false;
+            prevSlide = (el.parent().prev())?el.parent().prev().find('a'):false;
             
             options = $.extend(
                 {},
